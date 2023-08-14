@@ -132,8 +132,11 @@ ul li span:hover {
     font-size: 17px;
   }
   button {
-    padding: 0px 15px 2px 15px;
+    padding: 0px 15px 2.3px 15px;
     font-size: 38px;
+  }
+  ul li::before {
+    top: 11px;
   }
 }
 @media (min-width: 401px) and (max-width: 680px) {
