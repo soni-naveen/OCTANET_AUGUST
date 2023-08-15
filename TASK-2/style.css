@@ -41,6 +41,9 @@
   align-items: center;
 }
 input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: #edeef0;
   padding-left: 20px;
   font-size: 20px;
@@ -51,30 +54,31 @@ input {
   padding: 20px;
 }
 button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   border: none;
-  border-top: 1px solid rgba(255, 255, 255, 0.9);
-  border-bottom: 1px solid rgba(255, 255, 255, 0.9);
-  border-right: 1px solid rgba(255, 255, 255, 0.9);
   outline: none;
-  padding: 17.5px;
-  background: rgba(0, 213, 255, 0.737);
+  padding: 18px;
+  background: rgba(0, 213, 255, 0.7);
   cursor: pointer;
   border-radius: 0 7px 7px 0;
 }
 button > img {
-  vertical-align: middle;
   height: 30px;
 }
 button:hover {
   background: rgba(2, 182, 218, 0.806);
 }
 ul li {
+  display: flex;
+  align-items: center;
   margin-top: 10px;
   word-wrap: break-word;
   background-color: rgba(255, 255, 255, 0.1);
   border-radius: 7px;
   list-style: none;
-  font-size: 19px;
+  font-size: 20px;
   padding: 10px 60px 12px 50px;
   user-select: none;
   cursor: pointer;
@@ -120,31 +124,21 @@ ul li span:hover {
     padding-top: 20%;
     padding-left: 0%;
   }
-  .cont-in {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
   input {
-    max-width: 200px;
-    align-items: center;
     padding: 15px;
     font-size: 17px;
   }
   ul li {
-    width: 250px;
     font-size: 17px;
   }
   button {
-    padding: 12.5px;
+    padding: 14px;
   }
   button > img {
-    vertical-align: middle;
-    height: 26px;
+    height: 24px;
   }
   ul li::before {
-    top: 11px;
+    top: 10px;
   }
 }
 @media (min-width: 401px) and (max-width: 680px) {
@@ -152,11 +146,10 @@ ul li span:hover {
     padding-top: 20%;
     padding-left: 0%;
   }
-  .cont-in {
-    width: 100%;
-    max-width: 340px;
-  }
   button {
-    padding: 17.5px;
+    padding: 18px;
+  }
+  button > img {
+    height: 29px;
   }
 }
