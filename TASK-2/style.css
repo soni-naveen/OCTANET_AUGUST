@@ -1,4 +1,4 @@
-* {
+* { 
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -73,8 +73,8 @@ button:hover {
 ul li {
   display: flex;
   align-items: center;
+  word-break: break-all;
   margin-top: 10px;
-  word-wrap: break-word;
   background-color: rgba(255, 255, 255, 0.1);
   border-radius: 7px;
   list-style: none;
