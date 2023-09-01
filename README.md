@@ -1,4 +1,4 @@
-Octanet internship tasks
+# Octanet internship tasks
 
 TASK-1: Landing page
 
